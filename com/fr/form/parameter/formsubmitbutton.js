@@ -1,0 +1,1 @@
+if(this.options.form!=null&&$.isFunction(this.options.form.formSubmit)){this.options.form.QueryBtn=this;this.options.form.formSubmit({url:"${servletURL}?op=fr_dialog&cmd=parameters_d&sessionID=${sessionID}",asyn:true,callback:function(){_g().loadContentPane()}});var self=this;_g().once("afterload",function(){self.enable()})};
